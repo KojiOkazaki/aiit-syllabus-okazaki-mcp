@@ -1,0 +1,10 @@
+{
+  "name": "aiit-syllabus-okazaki-mcp",
+  "description": "Claude Desktop から AIIT（東京都立産業技術大学院大学）のシラバスを自然言語で検索できるMCPサーバー。令和8年度89科目収録。非公式プロジェクト。",
+  "target": "AIIT 学生/教員/受験検討者（Claude Desktop 経由）",
+  "problem": "AIITシラバスPDFを開かずに自然言語で科目/教員/開講期を横断検索したい",
+  "status": "動く",
+  "stack": ["local", "mcp", "typescript"],
+  "url": "",
+  "next": "新年度PDF公開時のシラバス更新運用（scripts/extract_syllabus.py 実行フロー整備）"
+}
